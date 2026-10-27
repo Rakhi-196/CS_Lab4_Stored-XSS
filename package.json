@@ -1,0 +1,19 @@
+{
+  "name": "campus-notice-board-xss-lab",
+  "version": "1.0.0",
+  "description": "Simple Campus Notice Board for a Stored XSS lab: one vulnerable version and one fixed version.",
+  "private": true,
+  "scripts": {
+    "vulnerable": "node server-vulnerable.js",
+    "secure": "node server-secure.js",
+    "start": "node server-secure.js",
+    "test": "node --test test/test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
